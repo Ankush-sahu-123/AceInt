@@ -1,4 +1,41 @@
-.main{
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.body{
     height: 100vh;
     width: 100vw;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 30%;
+    height: 100vh;
+    background-color: #18181B;
+}
+
+.right{
+    width: 70%;
+    height: 100vh;
+}
+
+.logoline{
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+}
+
+.logoline img{
+    width: 28px;
+    height: 28px;
 }
